@@ -4,7 +4,6 @@ This is a **complete, real-world Data Analyst portfolio project** based on an e-
 
 The project simulates real analyst workflows, from raw data exploration to business-focused SQL analysis.
 
----
 
 ## 📌 Project Overview
 
@@ -74,18 +73,11 @@ Here’s a step-by-step breakdown of what was done in this project:
 
 ---
 
-### 1. Database & Table Creation
+### 1. Database Creation
 - Created a dedicated database for the Zepto inventory analysis.
-- Designed tables aligned with the dataset structure.
-- Assigned appropriate data types for pricing, quantity, and categorical fields.
 
----
 
 ### 2. Data Import
-- Imported the CSV dataset using **pgAdmin’s import feature**.
-- Verified successful data load by checking row counts and sample records.
-
----
 
 ### 3. 🔍 Data Exploration
 - Counted the total number of records in the dataset.
@@ -105,27 +97,18 @@ Here’s a step-by-step breakdown of what was done in this project:
 ---
 
 ### 5. 📊 Business Insights
-- Identified **top 10 best-value products** based on discount percentage.
-- Found **high-MRP products currently out of stock**, highlighting lost revenue opportunities.
+- Identified **top 10 best-value products** based on discount percentage and stock availability.
 - Estimated **potential revenue** for each product category.
 - Filtered **expensive products (MRP > ₹500)** with minimal discounts.
-- Ranked **top 5 categories** offering the highest average discounts.
+- Ranked **top 5 items** offering the highest average discounts.
 - Calculated **price per gram** to identify value-for-money products.
 - Grouped products into **Low, Medium, and Bulk** categories based on weight.
 - Measured **total inventory weight** for each product category.
+- Calculated the **average MRP per item** 
+- Computed the **average discounted selling price per item** 
+  - Determined the **number of products per item**, 
 
----
 
-
-## 📊 Key Business Analysis Areas
-
-- Pricing and discount analysis
-- Inventory availability and out-of-stock patterns
-- Category-level performance
-- Revenue-driving products
-- Data quality issues in real-world catalog data
-
----
 
 ## 🚀 Why This Project Matters
 
@@ -134,11 +117,7 @@ This project demonstrates:
 - Ability to work with **messy, real-world data**
 - Business-oriented analytical thinking
 - Practical experience relevant to **Data Analyst roles**
-
 - 
-- 
-
----
 
 ## 📎 Author
 
