@@ -106,7 +106,7 @@ Here’s a step-by-step breakdown of what was done in this project:
 - Measured **total inventory weight** for each product category.
 - Calculated the **average MRP per item** 
 - Computed the **average discounted selling price per item** 
-  - Determined the **number of products per item**, 
+- Determined the **number of products per item**, 
 
 
 
